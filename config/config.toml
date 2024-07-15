@@ -1,0 +1,16 @@
+Port = "80"
+
+[Logger]
+level = "info"
+
+[Mysql]
+dsn = "root:Mjh010818.@tcp(121.43.161.38:3306)/bll?charset=utf8mb4&parseTime=True&loc=Local"
+maxIdleConns = 25
+maxOpenConns = 100
+connMaxLifetime = 30
+
+[Redis]
+addr = "121.43.161.38:6379"
+password = ""
+db = 0
+Prefix = ""
